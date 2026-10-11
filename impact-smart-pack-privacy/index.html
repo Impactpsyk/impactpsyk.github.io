@@ -74,7 +74,7 @@
 <body>
     <div class="header">
         <h1>Privacy Policy for Impact Smart Pack</h1>
-        <p>Last updated: October 10, 2026</p>
+        <p>Last updated: October 11, 2026</p>
     </div>
     <div class="content">
         <p>Impact Smart Pack is a travel packing-list application developed by Impact Group. This Privacy Policy explains how Impact Smart Pack handles information when you use the app.</p>
@@ -98,11 +98,12 @@
         <h2>Local Data Storage</h2>
         <p>Packing information created in Impact Smart Pack is stored locally on your device using a local database.</p>
         <p>You can remove this information by deleting records within the app, using the Reset App Data function in Settings, clearing the app's data through Android settings, or uninstalling the app.</p>
+        <p>Depending on your device settings, Android's own backup feature may include this local data in your own backup (for example, in your Google account). Those backups are controlled by you and your device provider; Impact Group cannot access them.</p>
         <p>You are responsible for any backups or exports you create.</p>
 
         <h2>Weather and Destination Information</h2>
         <p>Impact Smart Pack retrieves weather forecast data from Open-Meteo, a free weather API, to provide weather-based packing recommendations.</p>
-        <p>When you create a trip, the app sends the destination name or geographic coordinates to Open-Meteo to retrieve weather data. The app does not send device identifiers or user accounts to Open-Meteo. However, as with any internet request, your device's IP address is visible to the service when the request is made.</p>
+        <p>When you create a trip, the app sends the destination name you entered to Open-Meteo to find its location, and then sends the destination's geographic coordinates together with your trip dates to retrieve forecast or historical weather data. The app does not send device identifiers or user accounts to Open-Meteo. However, as with any internet request, your device's IP address is visible to the service when the request is made.</p>
         <p>Weather data is cached locally on your device.</p>
 
         <h2>Currency Exchange Rates</h2>
@@ -113,7 +114,12 @@
         <h2>Import and Export</h2>
         <p>Impact Smart Pack includes import and export features that allow you to transfer packing data between devices or create backups.</p>
         <p>Exported files may contain trip details, packing lists, profiles, and preferences. You control where exported files are saved or shared and are responsible for protecting exported files.</p>
-        <p>Data leaves the device only when you explicitly initiate an export or share action.</p>
+        <p>Data leaves the device only when you explicitly initiate an export, share, or transfer action.</p>
+
+        <h2>Camera and Device-to-Device Transfer</h2>
+        <p>Impact Smart Pack can transfer packing data between your own devices using a QR code. The sending device displays a QR code; the receiving device scans it with its camera.</p>
+        <p>The app asks for camera permission only when you choose to receive data from another device and scan a QR code. The camera image is processed on your device only to read the QR code. It is not saved, uploaded, or shared. The transfer does not use an Impact Group server.</p>
+        <p>Camera permission is optional. If you decline it, all other features remain available, including file-based export and import. Impact Smart Pack does not request access to your microphone, contacts, photos, files, or location.</p>
 
         <h2>Notifications</h2>
         <p>Impact Smart Pack may send local device notifications for flight reminders and packing prompts. Notifications are generated locally on the device and do not transmit data to external servers.</p>
@@ -157,7 +163,7 @@
         <p>Your packing database is not uploaded to an Impact Group cloud server.</p>
         <p>Information may nevertheless be transmitted to third-party services:</p>
         <ul>
-            <li>to Open-Meteo when retrieving weather forecasts — destination names or coordinates, and your device's IP address;</li>
+            <li>to Open-Meteo when retrieving weather forecasts — destination names, destination coordinates, trip dates, and your device's IP address;</li>
             <li>to the Frankfurter API when retrieving currency exchange rates — currency codes and your device's IP address;</li>
             <li>to Google as part of AdMob advertising and consent management — advertising identifiers, device identifiers, IP address, app interactions, and diagnostic information as described in the Advertising section; or</li>
             <li>when you explicitly initiate an export, share, or similar transfer action.</li>
